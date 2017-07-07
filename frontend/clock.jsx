@@ -17,7 +17,6 @@ class Clock extends React.Component {
   }
 
   tick() {
-    console.log(this.handle);
     this.setState({ date: new Date() });
   }
 
@@ -58,15 +57,17 @@ class Clock extends React.Component {
 
   render() {
     return (
-      <div className='clock'>
-        <ul>
-          <li>Time:</li>
-          <li>{ this.getTime() }</li>
-        </ul>
-        <ul>
-          <li>Date:</li>
-          <li>{ this.getDate() }</li>
-        </ul>
+      <div className='lightsaber'>
+        <div className='clock'>
+          <ul>
+            <li>Time:</li>
+            <li>{ this.getTime() }</li>
+          </ul>
+          <ul>
+            <li>Date:</li>
+            <li>{ this.getDate() }</li>
+          </ul>
+        </div>
       </div>
     );
   }

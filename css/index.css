@@ -9,17 +9,31 @@ html, body, div, h1, ul, li {
 
 body {
   font-family: "Oxygen Mono";
+  color: blue;
   margin: 5px;
+}
+
+.lightsaber {
+  background: #54d3f7; /* Old browsers */
+  background: -moz-linear-gradient(top, #54d3f7 1%, #07b5f9 16%, #cfecf7 41%, #cfecf7 41%, #def3f9 63%, #07b5f9 89%, #81d1ea 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #54d3f7 1%,#07b5f9 16%,#cfecf7 41%,#cfecf7 41%,#def3f9 63%,#07b5f9 89%,#81d1ea 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #54d3f7 1%,#07b5f9 16%,#cfecf7 41%,#cfecf7 41%,#def3f9 63%,#07b5f9 89%,#81d1ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d3f7', endColorstr='#81d1ea',GradientType=0 ); /* IE6-9 */
+  /*transform: rotate(10deg);*/
+  /*position: relative;*/
+  /*top: 100px;*/
+  width: 90%;
 }
 
 .clock {
   display: flex;
   flex-direction: column;
+  font-size: 24px;
   padding: 10px;
-  width: 400px;
+  width: 500px;
   margin: 0 auto; /*top & bottom margin = 0; left & right margin: auto*/
-  background: orange;
-  border: 2px solid black;
+  /*background: orange;*/
+  /*border: 2px solid black;*/
 }
 
 .clock ul {
