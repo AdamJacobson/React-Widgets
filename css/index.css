@@ -1,0 +1,29 @@
+html, body, div, h1, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  list-style: none;
+}
+
+body {
+  font-family: "Oxygen Mono";
+  margin: 5px;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  margin: 0 auto; /*top & bottom margin = 0; left & right margin: auto*/
+  background: orange;
+  border: 2px solid black;
+}
+
+.clock ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
